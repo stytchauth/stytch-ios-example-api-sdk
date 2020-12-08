@@ -6,9 +6,9 @@
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Getting Started](#getting-started)
-    * [Configuration](#configuration)
-    * [Starting UI Flow](#starting-ui-flow)
-    * [Starting Custom Flow](#starting-custom-flow)
+  * [Configuration](#configuration)
+  * [Starting UI Flow](#starting-ui-flow)
+  * [Starting Custom Flow](#starting-custom-flow)
 
 
 ## Overview
