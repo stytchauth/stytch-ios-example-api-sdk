@@ -25,7 +25,7 @@ The Stytch iOS SDK requires Xcode 12.2 or later and is compatible with apps targ
 ### Installation with CocoaPods
 Not supported yet
 ```
-pod 'StytchSDK'
+pod 'Stytch'
 ```
 
 ## Getting Started
