@@ -1,0 +1,16 @@
+PODS:
+  - Stytch (0.1.0)
+
+DEPENDENCIES:
+  - Stytch
+
+SPEC REPOS:
+  trunk:
+    - Stytch
+
+SPEC CHECKSUMS:
+  Stytch: a197a0fa6563efc08dbbe8cd2c249b83efa6caa2
+
+PODFILE CHECKSUM: b1c3c0ddebaaa22e93b381728c081c3c0263eb6f
+
+COCOAPODS: 1.10.0
