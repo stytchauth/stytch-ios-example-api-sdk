@@ -1,0 +1,6 @@
+framework module Pods_StytchExampleCustomUI {
+  umbrella header "Pods-StytchExampleCustomUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

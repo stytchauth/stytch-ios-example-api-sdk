@@ -1,5 +1,5 @@
 PODS:
-  - Stytch (0.1.0)
+  - Stytch (0.1.2)
 
 DEPENDENCIES:
   - Stytch
@@ -9,8 +9,8 @@ SPEC REPOS:
     - Stytch
 
 SPEC CHECKSUMS:
-  Stytch: a197a0fa6563efc08dbbe8cd2c249b83efa6caa2
+  Stytch: e2b6d3a8d82b902e0792d66abb1e4bd185d55842
 
 PODFILE CHECKSUM: b1c3c0ddebaaa22e93b381728c081c3c0263eb6f
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

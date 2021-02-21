@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		161A784592F3CD1484053E4A /* Pods_StytchExampleUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StytchExampleUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		177F221E20230BF54EF61567 /* Pods_StytchExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StytchExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D36458F25C6691700137FAF /* StytchExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StytchExample.entitlements; sourceTree = "<group>"; };
 		51D65F80DD6CE428AD8BA472 /* Pods-StytchExampleUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StytchExampleUI.debug.xcconfig"; path = "Target Support Files/Pods-StytchExampleUI/Pods-StytchExampleUI.debug.xcconfig"; sourceTree = "<group>"; };
 		5600D6F68BEAB2345A5DC201 /* Pods-StytchExampleUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StytchExampleUI.release.xcconfig"; path = "Target Support Files/Pods-StytchExampleUI/Pods-StytchExampleUI.release.xcconfig"; sourceTree = "<group>"; };
 		66660D0E481F8864EA45655F /* Pods-StytchExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StytchExample.release.xcconfig"; path = "Target Support Files/Pods-StytchExample/Pods-StytchExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +122,7 @@
 		85EA2D6E257F95590034693E /* StytchExample */ = {
 			isa = PBXGroup;
 			children = (
+				4D36458F25C6691700137FAF /* StytchExample.entitlements */,
 				85EA2D6F257F95590034693E /* AppDelegate.swift */,
 				85EA2D73257F95590034693E /* ViewController.swift */,
 				85EA2D75257F95590034693E /* Main.storyboard */,
@@ -515,8 +517,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StytchExample/StytchExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2U5QM4T7N7;
+				DEVELOPMENT_TEAM = XG6U8693WY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -539,8 +542,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StytchExample/StytchExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2U5QM4T7N7;
+				DEVELOPMENT_TEAM = XG6U8693WY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
