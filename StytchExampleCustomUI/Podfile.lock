@@ -1,16 +1,20 @@
 PODS:
   - SnapKit (5.0.1)
+  - Stytch (0.1.2)
 
 DEPENDENCIES:
   - SnapKit
+  - Stytch
 
 SPEC REPOS:
   trunk:
     - SnapKit
+    - Stytch
 
 SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Stytch: e2b6d3a8d82b902e0792d66abb1e4bd185d55842
 
-PODFILE CHECKSUM: 5af8e7f62ae0376e0469dd78d82bedc9c178a3bc
+PODFILE CHECKSUM: b1df96818caf8a8fded5dc55989c73c4c0b8a108
 
 COCOAPODS: 1.10.1
