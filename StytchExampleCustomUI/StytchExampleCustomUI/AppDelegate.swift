@@ -1,6 +1,6 @@
 
 import UIKit
-//import Stytch
+import Stytch
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

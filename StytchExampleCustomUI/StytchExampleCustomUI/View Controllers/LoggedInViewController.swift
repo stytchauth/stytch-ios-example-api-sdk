@@ -9,7 +9,7 @@ class LoggedInViewController: BaseUIViewController {
     
     func customizeView(){
         mainLabel.text = "Enjoy your socks!"
-        subtitleLabel.text = "CWe'll see you next time."
+        subtitleLabel.text = "We'll see you next time."
         bottomText.isHidden = false
         bottomText.attributedText = NSAttributedString(string: "Continue shopping", attributes: [NSAttributedString.Key.font : UIFont(name: "Optima-Bold", size: 18)!])
         goButton.isHidden = false

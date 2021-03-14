@@ -559,41 +559,6 @@
 			};
 			name = Release;
 		};
-		07D2D35C90B102BCD1C6DCDE35EBA89D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 027CD680096DFDF90958FAB44186A8F3 /* Stytch.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		598CFAB3044FC18B5FC53593B8538DE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E564AF9418FA72A6EDCD583D9A25841 /* Stytch.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		77B25FC9CEE66CA6521DBC2E6517BD97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1B62D257891487B7AE87E5EDFA56A09 /* SnapKit.debug.xcconfig */;
@@ -806,6 +771,41 @@
 			};
 			name = Release;
 		};
+		D65138A30E6CCFAFD490D447AD3B33E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027CD680096DFDF90958FAB44186A8F3 /* Stytch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8874FEBCC3F5C6DE49095D82DF44081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E564AF9418FA72A6EDCD583D9A25841 /* Stytch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -839,8 +839,8 @@
 		9732A11BBF65D18D70F2141B76C438C9 /* Build configuration list for PBXAggregateTarget "Stytch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				598CFAB3044FC18B5FC53593B8538DE9 /* Debug */,
-				07D2D35C90B102BCD1C6DCDE35EBA89D /* Release */,
+				E8874FEBCC3F5C6DE49095D82DF44081 /* Debug */,
+				D65138A30E6CCFAFD490D447AD3B33E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

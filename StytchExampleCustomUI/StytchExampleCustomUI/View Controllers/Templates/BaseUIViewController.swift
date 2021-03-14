@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-//import Stytch
+import Stytch
 
 class BaseUIViewController: UIViewController {
     
@@ -101,7 +101,8 @@ class BaseUIViewController: UIViewController {
         centerView.snp.makeConstraints{
             $0.width.equalToSuperview().inset(10)
             $0.height.equalToSuperview().dividedBy(2.25)
-            $0.center.equalToSuperview()
+            $0.centerX.equalToSuperview()
+            $0.centerY.equalToSuperview().multipliedBy(0.85)
         }
         
         centerView.addSubview(mainLabel)

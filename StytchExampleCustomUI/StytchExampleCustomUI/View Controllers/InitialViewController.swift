@@ -1,6 +1,6 @@
 import UIKit
 import SnapKit
-//import Stytch
+import Stytch
 
 class InitialViewController: BaseUIViewController {
     override func viewDidLoad() {
